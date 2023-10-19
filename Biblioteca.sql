@@ -277,3 +277,32 @@ INSERT INTO Emprestimos (fk_cpf_pessoa, fk_cod_obra, data_emprestimo, data_devol
 	VALUES ('02301994578', 3, TO_DATE('15/07/2020', 'DD/MM/YYYY'), TO_DATE('29/07/2020', 'DD/MM/YYYY'));
 	
 COMMIT;
+
+-------------------------------------------
+-- SELECTS:
+-------------------------------------------
+
+-- a) titulos dos "livros" emprestados que tenham mais de 100 paginas, em ordem alfabetica:
+
+--SELECT DISTINCT Obras.titulo as "Livros com mais de 100 paginas:"
+--FROM Emprestimos
+--JOIN Obras ON Obras.codigo = Emprestimos.fk_cod_obra
+--WHERE nro_paginas > 100 AND tipo_obra = 1
+--ORDER BY titulo;
+
+-- b) tempo medio de emprestimo, em dias, das obras do tipo "revista":
+
+--SELECT AVG(data_devolucao - data_emprestimo) as "Tempo medio de emprestimo de revistas:"
+--FROM Emprestimos
+--JOIN Obras ON Obras.codigo = Emprestimos.fk_cod_obra
+--WHERE tipo_obra = 2;
+
+-- c) obras do tipo 'TITULO: subtitulo', por ordem alfabetica. ex: "Java for Everyone (TITULO): Late Objects (subtitulo):
+
+--SELECT DISTINCT Obras.titulo
+--FROM Emprestimos
+--JOIN Obras ON Obras.codigo = Emprestimos.fk_cod_obra
+--WHERE titulo LIKE '%:%'
+--ORDER BY titulo;
+
+-------------------------------------------
