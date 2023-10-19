@@ -1,0 +1,345 @@
+[
+	{
+		"cpf": "03303303343",
+		"nome": "Lorenzo More",
+		"email": "lorenzo.duarte@edu.pucrs.br",
+		"telefone": "NULL",
+		"multa": "NULL",
+		
+		"matricula": "22103093",
+		"creditos_concluidos": 24,
+		
+		"fk_cod_obra": 1,
+		"titulo": "Java for Everyone: Late Objects",
+		"nro_paginas": 831,
+		"tipo_obra": 1,
+		"autores": {
+			"autor": "Cay Horstmann"
+		},
+		
+		"data_emprestimo": {
+			"dia": 12,
+			"mes": 3,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 19,
+			"mes": 3,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "03303303343",
+		"nome": "Lorenzo More",
+		"email": "lorenzo.duarte@edu.pucrs.br",
+		"telefone": "NULL",
+		"multa": "NULL",
+		
+		"matricula": "22103093",
+		"creditos_concluidos": 24,
+		
+		"fk_cod_obra": 2,
+		"titulo": "A Game of Thrones",
+		"nro_paginas": 694,
+		"tipo_obra": 1,
+		"autores": {
+			"autor": "George R. R. Martin"
+		},
+		
+		"data_emprestimo": {
+			"dia": 15,
+			"mes": 3,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 22,
+			"mes": 3,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "03649107240",
+		"nome": "Steve Jones",
+		"email": "jones.steve@edu.pucrs.br",
+		"telefone": "51998789898",
+		"multa": 2.0,
+		
+		"matricula": "22104070",
+		"creditos_concluidos": 30,
+		
+		"fk_cod_obra": 3,
+		"titulo": "IFAC Journal of Systems & Control",
+		"nro_paginas": 512,
+		"tipo_obra": 2,
+		"autores": {
+			"autor": "IFAC"
+		},
+		
+		"data_emprestimo": {
+			"dia": 10,
+			"mes": 4,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 17,
+			"mes": 4,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "03649107240",
+		"nome": "Steve Jones",
+		"email": "jones.steve@edu.pucrs.br",
+		"telefone": "51998789898",
+		"multa": 2.0,
+		
+		"matricula": "22104070",
+		"creditos_concluidos": 30,
+		
+		"fk_cod_obra": 4,
+		"titulo": "On the Use of Design Thinking: A Survey of the Brazilian Agile Software Development Community",
+		"nro_paginas": 13,
+		"tipo_obra": 3,
+		"autores": [
+			{
+				"autor": "Rafael Parizi"
+			},			
+			{
+				"autor": "Matheus Prestes"
+			},
+			{
+				"autor": "Sabrina Marczak"
+			},
+			{
+				"autor": "Tayana Conte"
+			}
+		],
+		
+		"data_emprestimo": {
+			"dia": 25,
+			"mes": 4,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 3,
+			"mes": 5,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "49281225506",
+		"nome": "Juliana Pires",
+		"email": "jupires@email.com",
+		"telefone": "51912531460",
+		"multa": 4.5,
+		
+		"matricula": "21309455",
+		"creditos_concluidos": 40,
+		
+		"fk_cod_obra": 1,
+		"titulo": "Java for Everyone: Late Objects",
+		"nro_paginas": 831,
+		"tipo_obra": 1,
+		"autores": {
+			"autor": "Cay Horstmann"
+		},
+		
+		"data_emprestimo": {
+			"dia": 9,
+			"mes": 5,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 16,
+			"mes": 5,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "49281225506",
+		"nome": "Juliana Pires",
+		"email": "jupires@email.com",
+		"telefone": "51912531460",
+		"multa": 4.5,
+		
+		"matricula": "21309455",
+		"creditos_concluidos": 40,
+		
+		"fk_cod_obra": 5,
+		"titulo": "Programa Espacial Brasileiro",
+		"nro_paginas": 1005,
+		"tipo_obra": 4,
+		"autores": [
+			{
+				"autor": "PEB"
+			},
+			{
+				"autor": "Instituto de Ciencia e Tecnologia"
+			}
+		],
+		
+		"data_emprestimo": {
+			"dia": 21,
+			"mes": 5,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 30,
+			"mes": 5,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "09741713226",
+		"nome": "Lucia Martins",
+		"email": "lucia.m@email.com",
+		"telefone": "51998742390",
+		"multa": "NULL",
+		
+		"data_contratacao": {
+			"dia": 1,
+			"mes": 2,
+			"ano": 1989
+		},
+		
+		"fk_cod_obra": 4,
+		"titulo": "On the Use of Design Thinking: A Survey of the Brazilian Agile Software Development Community",
+		"nro_paginas": 13,
+		"tipo_obra": 3,
+		"autores": [
+			{
+				"autor": "Rafael Parizi"
+			},			
+			{
+				"autor": "Matheus Prestes"
+			},
+			{
+				"autor": "Sabrina Marczak"
+			},
+			{
+				"autor": "Tayana Conte"
+			}
+		],
+		
+		"data_emprestimo": {
+			"dia": 2,
+			"mes": 6,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 18,
+			"mes": 6,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "09741713226",
+		"nome": "Lucia Martins",
+		"email": "lucia.m@email.com",
+		"telefone": "51998742390",
+		"multa": "NULL",
+		
+		"data_contratacao": {
+			"dia": 1,
+			"mes": 2,
+			"ano": 1989
+		},
+		
+		"fk_cod_obra": 5,
+		"titulo": "Programa Espacial Brasileiro",
+		"nro_paginas": 1005,
+		"tipo_obra": 4,
+		"autores": [
+			{
+				"autor": "PEB"
+			},
+			{
+				"autor": "Instituto de Ciencia e Tecnologia"
+			}
+		],
+		
+		"data_emprestimo": {
+			"dia": 19,
+			"mes": 6,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 27,
+			"mes": 6,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "02301994578",
+		"nome": "Anderson Rosa",
+		"email": "a.rosa@email.com.br",
+		"telefone": "NULL",
+		"multa": 26.9,
+		
+		"data_contratacao": {
+			"dia": 1,
+			"mes": 6,
+			"ano": 1999
+		},
+		
+		"fk_cod_obra": 2,
+		"titulo": "A Game of Thrones",
+		"nro_paginas": 694,
+		"tipo_obra": 1,
+		"autores": {
+			"autor": "George R. R. Martin"
+		},
+		
+		"data_emprestimo": {
+			"dia": 8,
+			"mes": 6,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 21,
+			"mes": 6,
+			"ano": 2020
+		}
+	},
+	
+	{
+		"cpf": "02301994578",
+		"nome": "Anderson Rosa",
+		"email": "a.rosa@email.com.br",
+		"telefone": "NULL",
+		"multa": 26.9,
+		
+		"data_contratacao": {
+			"dia": 1,
+			"mes": 6,
+			"ano": 1999
+		},
+		
+		"fk_cod_obra": 3,
+		"titulo": "IFAC Journal of Systems & Control",
+		"nro_paginas": 512,
+		"tipo_obra": 2,
+		"autores": {
+			"autor": "IFAC"
+		},
+		
+		"data_emprestimo": {
+			"dia": 15,
+			"mes": 7,
+			"ano": 2020
+		},
+		"data_devolucao": {
+			"dia": 29,
+			"mes": 7,
+			"ano": 2020
+		}
+	}
+]
